@@ -1,1 +1,1 @@
-# Spotify_MVVM_MVI_Demo
+# Spotify-MVVM-MVI-Demo
