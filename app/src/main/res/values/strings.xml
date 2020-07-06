@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">SpotifyApp</string>
+    <string name="dialog_title_error">Error:</string>
+    <string name="dialog_title_success">Success</string>
+    <string name="dialog_title_info">Info</string>
+    <string name="dialog_title_are_you_sure">Are you sure?</string>
+    <string name="dialog_option_yes">Yes</string>
+    <string name="dialog_option_cancel">Cancel</string>
+    <string name="dialog_option_done">Done</string>
+    <string name="dialog_message_success_cache">Successfully Cached</string>
+    <string name="dialog_message_success_logout">Logout Successful</string>
+    <string name="dialog_message_error_no_playlist_id">Playlist ID doesn\'t exist</string>
+    <string name="dialog_message_error_logout">Unable to Logout</string>
+    <string name="dialog_message_error_no_internet">Unable to connect to server</string>
+    <string name="dialog_message_error_default">Something went wrong. Please try again.</string>
+    <string name="dialog_message_error_timeout">Network timed out.</string>
+    <string name="dialog_message_error_auth_dismiss">Please login to Spotify to use this app.</string>
+    <string name="dialog_message_error_auth_no_internet">You must be connected to the internet to authenticate.</string>
+    <string name="dialog_message_error_cache_timeout_error">The cache has timed out.</string>
+    <string name="toolbar_title_auth">Login</string>
+    <string name="toolbar_title_categories">Categories</string>
+    <string name="toolbar_title_menu">Menu</string>
+    <string name="toolbar_title_playlists">Playlists</string>
+    <string name="toolbar_title_search_artists">Search Artists</string>
+
+
+
+    <string name="spotify_client_ID">2e5196ac527144b5992fad25ad3c1102</string>
+    <string name="spotify_redirect_uri">com.sean.spotifyapp://</string>
+
+</resources>
