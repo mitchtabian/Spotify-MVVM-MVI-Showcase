@@ -1,0 +1,664 @@
+{
+  "artists": {
+    "href": "https://api.spotify.com/v1/search?query=muse&type=artist&offset=0&limit=20",
+    "items": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/12Chz98pHFMPJEknJQMWvI"
+        },
+        "followers": {
+          "href": null,
+          "total": 5799651
+        },
+        "genres": [
+          "modern rock",
+          "permanent wave",
+          "post-grunge",
+          "rock"
+        ],
+        "href": "https://api.spotify.com/v1/artists/12Chz98pHFMPJEknJQMWvI",
+        "id": "12Chz98pHFMPJEknJQMWvI",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/12450535621500d6e519275f2c52d49c00a0168f",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/17f00ec7613d733f2dd88de8f2c1628ea5f9adde",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/2da69b7920c065afc835124c4786025820adab8c",
+            "width": 160
+          }
+        ],
+        "name": "Muse",
+        "popularity": 80,
+        "type": "artist",
+        "uri": "spotify:artist:12Chz98pHFMPJEknJQMWvI"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6UdKtISMXYKSR8jcgtFePo"
+        },
+        "followers": {
+          "href": null,
+          "total": 52253
+        },
+        "genres": [
+          "k-indie",
+          "k-rap",
+          "korean r&b"
+        ],
+        "href": "https://api.spotify.com/v1/artists/6UdKtISMXYKSR8jcgtFePo",
+        "id": "6UdKtISMXYKSR8jcgtFePo",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273b5a4cc430232421ee192dfd1",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02b5a4cc430232421ee192dfd1",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851b5a4cc430232421ee192dfd1",
+            "width": 64
+          }
+        ],
+        "name": "Rad Museum",
+        "popularity": 54,
+        "type": "artist",
+        "uri": "spotify:artist:6UdKtISMXYKSR8jcgtFePo"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/2YAihoY43W4csXJjfGtrsl"
+        },
+        "followers": {
+          "href": null,
+          "total": 291
+        },
+        "genres": [
+          "accordeon"
+        ],
+        "href": "https://api.spotify.com/v1/artists/2YAihoY43W4csXJjfGtrsl",
+        "id": "2YAihoY43W4csXJjfGtrsl",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273f9563425882314df3106f451",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02f9563425882314df3106f451",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851f9563425882314df3106f451",
+            "width": 64
+          }
+        ],
+        "name": "Musette",
+        "popularity": 24,
+        "type": "artist",
+        "uri": "spotify:artist:2YAihoY43W4csXJjfGtrsl"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1PgZeUa7uRiBu1XU02hiBH"
+        },
+        "followers": {
+          "href": null,
+          "total": 77
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/1PgZeUa7uRiBu1XU02hiBH",
+        "id": "1PgZeUa7uRiBu1XU02hiBH",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b27345b862bc673e69699b1a3e63",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e0245b862bc673e69699b1a3e63",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d0000485145b862bc673e69699b1a3e63",
+            "width": 64
+          }
+        ],
+        "name": "The Muse Of Meditation",
+        "popularity": 36,
+        "type": "artist",
+        "uri": "spotify:artist:1PgZeUa7uRiBu1XU02hiBH"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1I91gH26lvsju14Hy5h0Xx"
+        },
+        "followers": {
+          "href": null,
+          "total": 2554
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/1I91gH26lvsju14Hy5h0Xx",
+        "id": "1I91gH26lvsju14Hy5h0Xx",
+        "images": [
+          {
+            "height": 808,
+            "url": "https://i.scdn.co/image/6ebbe57ab9dd14c6d6b1f0112a125a4d79a73040",
+            "width": 1000
+          },
+          {
+            "height": 517,
+            "url": "https://i.scdn.co/image/e5ffe65d386530e1c50f27ea08eee7861c80ff3e",
+            "width": 640
+          },
+          {
+            "height": 162,
+            "url": "https://i.scdn.co/image/3cdddc660ce875d1e84ce41dc0df7b4e98188a26",
+            "width": 200
+          },
+          {
+            "height": 52,
+            "url": "https://i.scdn.co/image/cbea5d3d573de57cb4a4141d21235b48028d4d07",
+            "width": 64
+          }
+        ],
+        "name": "Musée Mécanique",
+        "popularity": 24,
+        "type": "artist",
+        "uri": "spotify:artist:1I91gH26lvsju14Hy5h0Xx"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/2nIzOTNOvPxPlgzB4GQHPc"
+        },
+        "followers": {
+          "href": null,
+          "total": 3491
+        },
+        "genres": [
+          "etherpop",
+          "gauze pop"
+        ],
+        "href": "https://api.spotify.com/v1/artists/2nIzOTNOvPxPlgzB4GQHPc",
+        "id": "2nIzOTNOvPxPlgzB4GQHPc",
+        "images": [
+          {
+            "height": 1000,
+            "url": "https://i.scdn.co/image/2d195f781223d906905fe866295dc15bb807c829",
+            "width": 1000
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/600889ccc371480f5bd1e2f1af1fefc37bf96c7e",
+            "width": 640
+          },
+          {
+            "height": 200,
+            "url": "https://i.scdn.co/image/9d56e00a11e570c58e3c7bb5a78961d2cb66aced",
+            "width": 200
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/1313e2651bb073baf943cd697fdf214ac11836bd",
+            "width": 64
+          }
+        ],
+        "name": "Museum Of Love",
+        "popularity": 22,
+        "type": "artist",
+        "uri": "spotify:artist:2nIzOTNOvPxPlgzB4GQHPc"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1BPL8qTOxDB0dqFMWACicT"
+        },
+        "followers": {
+          "href": null,
+          "total": 40
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/1BPL8qTOxDB0dqFMWACicT",
+        "id": "1BPL8qTOxDB0dqFMWACicT",
+        "images": [],
+        "name": "MuseofDiscord",
+        "popularity": 16,
+        "type": "artist",
+        "uri": "spotify:artist:1BPL8qTOxDB0dqFMWACicT"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1m65tlqQeXF6q0kkWuqQIc"
+        },
+        "followers": {
+          "href": null,
+          "total": 12
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/1m65tlqQeXF6q0kkWuqQIc",
+        "id": "1m65tlqQeXF6q0kkWuqQIc",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b2739c446adf377e3daf14133352",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e029c446adf377e3daf14133352",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d000048519c446adf377e3daf14133352",
+            "width": 64
+          }
+        ],
+        "name": "Museum",
+        "popularity": 12,
+        "type": "artist",
+        "uri": "spotify:artist:1m65tlqQeXF6q0kkWuqQIc"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3aHNIgKMKMb0hmklcLXxkm"
+        },
+        "followers": {
+          "href": null,
+          "total": 228
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/3aHNIgKMKMb0hmklcLXxkm",
+        "id": "3aHNIgKMKMb0hmklcLXxkm",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/62f020a8bfc0fb964e0aacd919965f121bfa9197",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/36d35eae2898f589139f8a8dae0609984f994a3a",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/81d6bf9ac2aea397f5b70689e23a4397c2c8553f",
+            "width": 160
+          }
+        ],
+        "name": "Muse Maya",
+        "popularity": 49,
+        "type": "artist",
+        "uri": "spotify:artist:3aHNIgKMKMb0hmklcLXxkm"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3fELQaGklkAy7LlPmMcP67"
+        },
+        "followers": {
+          "href": null,
+          "total": 365
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/3fELQaGklkAy7LlPmMcP67",
+        "id": "3fELQaGklkAy7LlPmMcP67",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/a6f9462abdffde76e4899a2abf9fb9e1a462c102",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/9586572b32325846b3ab8d5bd503e8e7cfd78725",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/e9ff58532bb4b94df3375b5f1a1abb31ea660628",
+            "width": 160
+          }
+        ],
+        "name": "Muse-Sic",
+        "popularity": 12,
+        "type": "artist",
+        "uri": "spotify:artist:3fELQaGklkAy7LlPmMcP67"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5IVSuhXyXBvYUIjp362dOY"
+        },
+        "followers": {
+          "href": null,
+          "total": 1879
+        },
+        "genres": [
+          "indie punk"
+        ],
+        "href": "https://api.spotify.com/v1/artists/5IVSuhXyXBvYUIjp362dOY",
+        "id": "5IVSuhXyXBvYUIjp362dOY",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/24cfed268b2da01c59868d52a5722fafcc08636d",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/fdc274962869b3e2ee1ce7aaa37dec6d1d0ec2d2",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/7c37648ec2258b040278bfc39b724f26b292ba14",
+            "width": 160
+          }
+        ],
+        "name": "Museum Mouth",
+        "popularity": 11,
+        "type": "artist",
+        "uri": "spotify:artist:5IVSuhXyXBvYUIjp362dOY"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6ld45E426cWmpNVKMX413P"
+        },
+        "followers": {
+          "href": null,
+          "total": 2748
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/6ld45E426cWmpNVKMX413P",
+        "id": "6ld45E426cWmpNVKMX413P",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273363e551a55d83a12af30c060",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02363e551a55d83a12af30c060",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851363e551a55d83a12af30c060",
+            "width": 64
+          }
+        ],
+        "name": "Musette",
+        "popularity": 22,
+        "type": "artist",
+        "uri": "spotify:artist:6ld45E426cWmpNVKMX413P"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4gt6bXbC0BlAvjc46zBpMS"
+        },
+        "followers": {
+          "href": null,
+          "total": 79
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/4gt6bXbC0BlAvjc46zBpMS",
+        "id": "4gt6bXbC0BlAvjc46zBpMS",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b2730b54437e2f27e17b233b8363",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e020b54437e2f27e17b233b8363",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d000048510b54437e2f27e17b233b8363",
+            "width": 64
+          }
+        ],
+        "name": "Museekal",
+        "popularity": 23,
+        "type": "artist",
+        "uri": "spotify:artist:4gt6bXbC0BlAvjc46zBpMS"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0QovvDQo3fHxXJTIXbXd0G"
+        },
+        "followers": {
+          "href": null,
+          "total": 143
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/0QovvDQo3fHxXJTIXbXd0G",
+        "id": "0QovvDQo3fHxXJTIXbXd0G",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/a5e9883c43bc06614ee3f3459629af1c67327e89",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/49dae0a6de598231b28578033b407ec4ca2fd253",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ec15ef3825e0b3deb163859e5b5aa69c29c7f3d6",
+            "width": 160
+          }
+        ],
+        "name": "Muser",
+        "popularity": 26,
+        "type": "artist",
+        "uri": "spotify:artist:0QovvDQo3fHxXJTIXbXd0G"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1JMo1anoJcoWzGNJJirOvc"
+        },
+        "followers": {
+          "href": null,
+          "total": 1013
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/1JMo1anoJcoWzGNJJirOvc",
+        "id": "1JMo1anoJcoWzGNJJirOvc",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/4e592ac4294e8cd549335ab823de0b8c946e8183",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/98b1204bad09791f9796931a1bef09679af57178",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/7f3570ff8ac9ddf55466205ae1e8ffd693aeb4c1",
+            "width": 160
+          }
+        ],
+        "name": "Musetta",
+        "popularity": 18,
+        "type": "artist",
+        "uri": "spotify:artist:1JMo1anoJcoWzGNJJirOvc"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4hy8rLVa6N3hAsYeD6Fxjh"
+        },
+        "followers": {
+          "href": null,
+          "total": 33
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/4hy8rLVa6N3hAsYeD6Fxjh",
+        "id": "4hy8rLVa6N3hAsYeD6Fxjh",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/e165455a375fe68947274ca96ce21a8b817d5e1d",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/a312764ca3d0f7879d47ded66aa157becc9b677d",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/efaaaf0b20e953f0189370bb0110ff2532755fec",
+            "width": 160
+          }
+        ],
+        "name": "Mwila Musefwe",
+        "popularity": 34,
+        "type": "artist",
+        "uri": "spotify:artist:4hy8rLVa6N3hAsYeD6Fxjh"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5xU5wRTlZHVRoo2OxPvqA4"
+        },
+        "followers": {
+          "href": null,
+          "total": 39329
+        },
+        "genres": [
+          "alternative pop",
+          "alternative rock",
+          "boston rock",
+          "britpop",
+          "dream pop",
+          "lilith",
+          "rhode island indie",
+          "riot grrrl"
+        ],
+        "href": "https://api.spotify.com/v1/artists/5xU5wRTlZHVRoo2OxPvqA4",
+        "id": "5xU5wRTlZHVRoo2OxPvqA4",
+        "images": [
+          {
+            "height": 1000,
+            "url": "https://i.scdn.co/image/ab6772690000c46cc85b168daed9a4c00e47f7a5",
+            "width": 1000
+          },
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6772690000dd22c85b168daed9a4c00e47f7a5",
+            "width": 640
+          },
+          {
+            "height": 200,
+            "url": "https://i.scdn.co/image/ab6772690000bac3c85b168daed9a4c00e47f7a5",
+            "width": 200
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67726900008f74c85b168daed9a4c00e47f7a5",
+            "width": 64
+          }
+        ],
+        "name": "Throwing Muses",
+        "popularity": 39,
+        "type": "artist",
+        "uri": "spotify:artist:5xU5wRTlZHVRoo2OxPvqA4"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/47rK7fbxkUSN2Xk5J17qR6"
+        },
+        "followers": {
+          "href": null,
+          "total": 5424
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/47rK7fbxkUSN2Xk5J17qR6",
+        "id": "47rK7fbxkUSN2Xk5J17qR6",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ee23a071b319edfd7b9a34bc3b025e3b0a9857c0",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/06252eb55407270b634c467e4ebac927932111d4",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/523bbe51f4ff1780a50f6916101393156133d333",
+            "width": 160
+          }
+        ],
+        "name": "The Museum",
+        "popularity": 20,
+        "type": "artist",
+        "uri": "spotify:artist:47rK7fbxkUSN2Xk5J17qR6"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5UeL9gBP3anyOJewoKluRJ"
+        },
+        "followers": {
+          "href": null,
+          "total": 5
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/5UeL9gBP3anyOJewoKluRJ",
+        "id": "5UeL9gBP3anyOJewoKluRJ",
+        "images": [],
+        "name": "Museo",
+        "popularity": 11,
+        "type": "artist",
+        "uri": "spotify:artist:5UeL9gBP3anyOJewoKluRJ"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3cT4YuVv91JYoic1WOAjiB"
+        },
+        "followers": {
+          "href": null,
+          "total": 210
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/3cT4YuVv91JYoic1WOAjiB",
+        "id": "3cT4YuVv91JYoic1WOAjiB",
+        "images": [],
+        "name": "Muselk",
+        "popularity": 9,
+        "type": "artist",
+        "uri": "spotify:artist:3cT4YuVv91JYoic1WOAjiB"
+      }
+    ],
+    "limit": 20,
+    "next": "https://api.spotify.com/v1/search?query=muse&type=artist&offset=20&limit=20",
+    "offset": 0,
+    "previous": null,
+    "total": 836
+  }
+}

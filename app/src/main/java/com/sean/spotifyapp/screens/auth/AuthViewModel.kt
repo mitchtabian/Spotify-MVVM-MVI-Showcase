@@ -6,10 +6,11 @@ import com.sean.spotifyapp.repository.AuthRepository
 import com.sean.spotifyapp.screens.base.DataState
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.FlowPreview
+import kotlinx.coroutines.InternalCoroutinesApi
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import javax.inject.Inject
-
+@InternalCoroutinesApi
 class AuthViewModel
 @Inject
 constructor(private val authRepository: AuthRepository) : BaseViewModel<AuthViewState>() {

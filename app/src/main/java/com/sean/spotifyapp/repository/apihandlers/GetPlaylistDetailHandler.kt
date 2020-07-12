@@ -16,8 +16,9 @@ import com.sean.spotifyapp.screens.playlist_detail.PlaylistDetailStateEvent
 import com.sean.spotifyapp.screens.playlist_detail.PlaylistDetailStateEvent.*
 import com.sean.spotifyapp.screens.playlist_detail.PlaylistDetailViewState
 import com.sean.spotifyapp.screens.playlists.PlaylistsViewState
+import kotlinx.coroutines.InternalCoroutinesApi
 import java.util.*
-
+@InternalCoroutinesApi
 class GetPlaylistDetailHandler(
     private val stateEvent: GetPlaylistDetailStateEvent,
     private val apiService: ApiService,
@@ -51,7 +52,6 @@ class GetPlaylistDetailHandler(
             }
         }
     }
-
 
     private suspend fun insertNewTrack(playlistId: String?, track: Track?) {
         val associatedPlaylists = mutableListOf<String?>()

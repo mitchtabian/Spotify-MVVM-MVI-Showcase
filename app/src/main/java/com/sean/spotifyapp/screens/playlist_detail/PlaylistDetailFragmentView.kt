@@ -13,7 +13,9 @@ import com.sean.myapplication.screens.BaseClasses.ViewState
 import com.sean.spotifyapp.R
 import com.sean.spotifyapp.screens.base.ReturnAction
 import com.sean.spotifyapp.screens.playlist_detail.widgets.PlaylistDetailAdapter
+import kotlinx.coroutines.InternalCoroutinesApi
 
+@InternalCoroutinesApi
 class PlaylistDetailFragmentView(
     private val playlistId: String,
     private val playlistName: String,

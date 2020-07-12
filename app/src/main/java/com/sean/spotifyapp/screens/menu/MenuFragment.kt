@@ -6,7 +6,9 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.ViewModelProvider
 import com.sean.myapplication.screens.BaseClasses.*
 import com.sean.spotifyapp.R
+import kotlinx.coroutines.InternalCoroutinesApi
 
+@InternalCoroutinesApi
 class MenuFragment
 constructor(viewModelFactory: ViewModelProvider.Factory) :
     BaseFragment(viewModelFactory) {

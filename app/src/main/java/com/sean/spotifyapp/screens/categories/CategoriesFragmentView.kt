@@ -13,7 +13,8 @@ import com.sean.spotifyapp.R
 import com.sean.spotifyapp.getString
 import com.sean.spotifyapp.screens.base.ReturnAction
 import com.sean.spotifyapp.screens.categories.views.CategoriesAdapter
-
+import kotlinx.coroutines.InternalCoroutinesApi
+@InternalCoroutinesApi
 class CategoriesFragmentView(viewModel: CategoriesViewModel, context: Context) :
     BaseFragmentView<CategoriesViewState>(viewModel, context) {
 
@@ -34,5 +35,6 @@ class CategoriesFragmentView(viewModel: CategoriesViewModel, context: Context) :
         setStateEvent(CategoriesStateEvent.GetCategoriesEvent())
     }
 
+    @InternalCoroutinesApi
     override fun initTitle(): String = getString(R.string.toolbar_title_categories)
 }

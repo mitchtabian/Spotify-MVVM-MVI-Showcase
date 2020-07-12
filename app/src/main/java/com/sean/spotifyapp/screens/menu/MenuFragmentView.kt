@@ -17,7 +17,9 @@ import com.sean.spotifyapp.R
 import com.sean.spotifyapp.activity.MainActivity
 import com.sean.spotifyapp.getString
 import com.sean.spotifyapp.screens.base.ReturnAction
+import kotlinx.coroutines.InternalCoroutinesApi
 
+@InternalCoroutinesApi
 class MenuFragmentView(viewModel: MenuViewModel, context: Context) :
     BaseFragmentView<MenuViewState>(viewModel, context) {
 
@@ -44,6 +46,7 @@ class MenuFragmentView(viewModel: MenuViewModel, context: Context) :
             setStateEvent(MenuStateEvent.PlaylistsClickedEvent())
         }
     }
+
 
     override fun resolveAction(action: ReturnAction) {
 

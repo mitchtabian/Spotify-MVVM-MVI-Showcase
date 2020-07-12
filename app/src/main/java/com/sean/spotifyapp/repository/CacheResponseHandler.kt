@@ -6,12 +6,14 @@ import com.sean.spotifyapp.network.MessageType
 import com.sean.spotifyapp.network.UIComponentType
 import com.sean.spotifyapp.persistence.CacheResult
 import com.sean.spotifyapp.screens.base.DataState
+import kotlinx.coroutines.InternalCoroutinesApi
 
 abstract class CacheResponseHandler<ViewState, Data>(
     private val cacheResult: CacheResult<Data>,
     private val stateEventToBeResolved: StateEvent?
 ) {
 
+    @InternalCoroutinesApi
     suspend fun getResult(): DataState<ViewState> {
         return when (cacheResult) {
             is CacheResult.Error -> {

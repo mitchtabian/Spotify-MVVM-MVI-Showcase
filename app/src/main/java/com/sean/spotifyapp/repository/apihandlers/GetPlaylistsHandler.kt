@@ -12,7 +12,9 @@ import com.sean.spotifyapp.repository.apihandlers.base.CacheRetrievingApiHandler
 import com.sean.spotifyapp.repository.successToastMessageModel
 import com.sean.spotifyapp.screens.base.DataState
 import com.sean.spotifyapp.screens.playlists.PlaylistsViewState
+import kotlinx.coroutines.InternalCoroutinesApi
 
+@InternalCoroutinesApi
 class GetPlaylistsHandler(
     private val stateEvent: StateEvent,
     private val apiService: ApiService,

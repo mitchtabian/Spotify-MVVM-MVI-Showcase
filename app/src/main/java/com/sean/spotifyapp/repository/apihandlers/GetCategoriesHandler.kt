@@ -14,7 +14,9 @@ import com.sean.spotifyapp.repository.successToastMessageModel
 import com.sean.spotifyapp.screens.base.DataState
 import com.sean.spotifyapp.screens.categories.CategoriesViewState
 import com.sean.spotifyapp.screens.playlists.PlaylistsViewState
+import kotlinx.coroutines.InternalCoroutinesApi
 
+@InternalCoroutinesApi
 class GetCategoriesHandler(
     private val stateEvent: StateEvent,
     private val apiService: ApiService,

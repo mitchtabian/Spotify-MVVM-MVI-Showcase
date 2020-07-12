@@ -12,6 +12,7 @@ import com.sean.spotifyapp.screens.auth.AuthViewState
 import com.sean.spotifyapp.screens.base.DataState
 import com.sean.spotifyapp.models.AuthToken
 import com.spotify.sdk.android.auth.AuthorizationResponse
+import kotlinx.coroutines.InternalCoroutinesApi
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.FlowCollector
@@ -19,6 +20,7 @@ import kotlinx.coroutines.flow.flow
 import java.util.*
 import javax.inject.Inject
 
+@InternalCoroutinesApi
 class AuthRepository
 @Inject
 constructor(private val authDao: AuthDao) {

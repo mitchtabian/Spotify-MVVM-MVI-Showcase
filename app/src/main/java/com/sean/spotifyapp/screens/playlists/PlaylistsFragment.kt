@@ -8,7 +8,9 @@ import com.sean.myapplication.screens.BaseClasses.ViewState
 import com.sean.spotifyapp.R
 import com.sean.spotifyapp.screens.menu.MenuFragmentView
 import com.sean.spotifyapp.screens.playlist_detail.PlaylistDetailViewModel
+import kotlinx.coroutines.InternalCoroutinesApi
 
+@InternalCoroutinesApi
 class PlaylistsFragment(viewModelFactory: ViewModelProvider.Factory) : BaseFragment(viewModelFactory) {
 
     private val viewModel: PlaylistsViewModel by viewModels {viewModelFactory}

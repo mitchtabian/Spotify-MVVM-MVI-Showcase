@@ -14,7 +14,8 @@ import com.sean.myapplication.screens.BaseClasses.BaseFragmentView
 import com.sean.spotifyapp.R
 import com.sean.spotifyapp.getString
 import com.sean.spotifyapp.screens.search.views.SearchResultAdapter
-
+import kotlinx.coroutines.InternalCoroutinesApi
+@InternalCoroutinesApi
 class SearchFragmentView(val viewModel: SearchViewModel, context: Context) :
     BaseFragmentView<SearchViewState>(viewModel, context){
 

@@ -12,7 +12,8 @@ import com.sean.spotifyapp.R
 import com.sean.spotifyapp.activity.AuthActivity
 import com.sean.spotifyapp.getString
 import com.sean.spotifyapp.screens.base.ReturnAction
-
+import kotlinx.coroutines.InternalCoroutinesApi
+@InternalCoroutinesApi
 class AuthFragmentView(viewModel: AuthViewModel, context: Context) :
     BaseFragmentView<AuthViewState>(viewModel, context) {
 

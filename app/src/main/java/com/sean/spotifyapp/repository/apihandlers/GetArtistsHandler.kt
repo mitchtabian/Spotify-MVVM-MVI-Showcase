@@ -11,7 +11,9 @@ import com.sean.spotifyapp.repository.apihandlers.base.CacheRetrievingApiHandler
 import com.sean.spotifyapp.screens.base.DataState
 import com.sean.spotifyapp.screens.search.SearchStateEvent.SearchArtistsEvent
 import com.sean.spotifyapp.screens.search.SearchViewState
+import kotlinx.coroutines.InternalCoroutinesApi
 
+@InternalCoroutinesApi
 class GetArtistsHandler(
     private val stateArtistsEvent: SearchArtistsEvent,
     private val apiService: ApiService,

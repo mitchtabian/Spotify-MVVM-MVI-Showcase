@@ -1,0 +1,890 @@
+{
+  "href": "https://api.spotify.com/v1/users/123267834/playlists?offset=0&limit=20",
+  "items": [
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/7B2AeiUZbsnq0vNrJ7wiRb"
+      },
+      "href": "https://api.spotify.com/v1/playlists/7B2AeiUZbsnq0vNrJ7wiRb",
+      "id": "7B2AeiUZbsnq0vNrJ7wiRb",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab67616d0000b2734f6eddb1cccfab052909f1ee",
+          "width": 640
+        }
+      ],
+      "name": "api test2",
+      "owner": {
+        "display_name": "Sean Oxford",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/123267834"
+        },
+        "href": "https://api.spotify.com/v1/users/123267834",
+        "id": "123267834",
+        "type": "user",
+        "uri": "spotify:user:123267834"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "MywzN2MyMjVhYmNhN2Q3MjliNTYwNGUzYzVjMjA4NTY1Y2U0ODg5ZGUz",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/7B2AeiUZbsnq0vNrJ7wiRb/tracks",
+        "total": 2
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:7B2AeiUZbsnq0vNrJ7wiRb"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/3EAJghax1Mk7Y4ySUnDJLK"
+      },
+      "href": "https://api.spotify.com/v1/playlists/3EAJghax1Mk7Y4ySUnDJLK",
+      "id": "3EAJghax1Mk7Y4ySUnDJLK",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab67616d0000b273fed522e78ecdc9fba4a0cc07",
+          "width": 640
+        }
+      ],
+      "name": "api test",
+      "owner": {
+        "display_name": "Sean Oxford",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/123267834"
+        },
+        "href": "https://api.spotify.com/v1/users/123267834",
+        "id": "123267834",
+        "type": "user",
+        "uri": "spotify:user:123267834"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "MTQsMWYwMGIxYjcyZTA5ZjYzMjE5M2Q0NWJiYmQyNWJhN2QzOTczZjU4MA==",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/3EAJghax1Mk7Y4ySUnDJLK/tracks",
+        "total": 1
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:3EAJghax1Mk7Y4ySUnDJLK"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/1RDZVQT5O8ee6W4TdJFLGf"
+      },
+      "href": "https://api.spotify.com/v1/playlists/1RDZVQT5O8ee6W4TdJFLGf",
+      "id": "1RDZVQT5O8ee6W4TdJFLGf",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b2730153faf0def5084faabe2b0fab67616d0000b2733d3b60439616a720ee90b464ab67616d0000b27354a8f4f9158546472fbb7280ab67616d0000b2736da502e35a7a3e48de2b0f74",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b2730153faf0def5084faabe2b0fab67616d0000b2733d3b60439616a720ee90b464ab67616d0000b27354a8f4f9158546472fbb7280ab67616d0000b2736da502e35a7a3e48de2b0f74",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b2730153faf0def5084faabe2b0fab67616d0000b2733d3b60439616a720ee90b464ab67616d0000b27354a8f4f9158546472fbb7280ab67616d0000b2736da502e35a7a3e48de2b0f74",
+          "width": 60
+        }
+      ],
+      "name": "30",
+      "owner": {
+        "display_name": "Sean Oxford",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/123267834"
+        },
+        "href": "https://api.spotify.com/v1/users/123267834",
+        "id": "123267834",
+        "type": "user",
+        "uri": "spotify:user:123267834"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "MjgsM2IxMzA0OWMwOTE3MWIzZDMwYTFhZGM3NjM1YmFmMjdjZjc1MDkwZg==",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/1RDZVQT5O8ee6W4TdJFLGf/tracks",
+        "total": 22
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:1RDZVQT5O8ee6W4TdJFLGf"
+    },
+    {
+      "collaborative": false,
+      "description": "A collection of the best releases from Seven Lions’ label, Ophelia Records. Including melodic bass, dubstep &amp; everything in between.",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/639yWmetwwsOilkdHgYAnn"
+      },
+      "href": "https://api.spotify.com/v1/playlists/639yWmetwwsOilkdHgYAnn",
+      "id": "639yWmetwwsOilkdHgYAnn",
+      "images": [
+        {
+          "height": null,
+          "url": "https://i.scdn.co/image/ab67706c0000da8462b4f6a65921408378f2fdba",
+          "width": null
+        }
+      ],
+      "name": "Best of Ophelia  🌒",
+      "owner": {
+        "display_name": "Ophelia",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/z41qersnoc925yrue0gibmtsr"
+        },
+        "href": "https://api.spotify.com/v1/users/z41qersnoc925yrue0gibmtsr",
+        "id": "z41qersnoc925yrue0gibmtsr",
+        "type": "user",
+        "uri": "spotify:user:z41qersnoc925yrue0gibmtsr"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "MjIxLGUyODExNjBlZTFmOWJjZWE2M2M2YzU1ZGU2YWYyNjVhMDY0NjUwYjk=",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/639yWmetwwsOilkdHgYAnn/tracks",
+        "total": 100
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:639yWmetwwsOilkdHgYAnn"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/2mm44NuLSg9GePtasqOVBB"
+      },
+      "href": "https://api.spotify.com/v1/playlists/2mm44NuLSg9GePtasqOVBB",
+      "id": "2mm44NuLSg9GePtasqOVBB",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b273370074ce24e61526daf0c25fab67616d0000b273657f264c53a14d63ddb31c60ab67616d0000b2737ff8646b393f97f8c30ed372ab67616d0000b273ee36721e85e7fbef178390cf",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b273370074ce24e61526daf0c25fab67616d0000b273657f264c53a14d63ddb31c60ab67616d0000b2737ff8646b393f97f8c30ed372ab67616d0000b273ee36721e85e7fbef178390cf",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b273370074ce24e61526daf0c25fab67616d0000b273657f264c53a14d63ddb31c60ab67616d0000b2737ff8646b393f97f8c30ed372ab67616d0000b273ee36721e85e7fbef178390cf",
+          "width": 60
+        }
+      ],
+      "name": "كٲشُر",
+      "owner": {
+        "display_name": "Sean Oxford",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/123267834"
+        },
+        "href": "https://api.spotify.com/v1/users/123267834",
+        "id": "123267834",
+        "type": "user",
+        "uri": "spotify:user:123267834"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "MTQsODcyNjdhOGM2YWEwZjAxNjgyODdkNzA4Njk0NDAxYjFmZWEzNTQ5Ng==",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/2mm44NuLSg9GePtasqOVBB/tracks",
+        "total": 11
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:2mm44NuLSg9GePtasqOVBB"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/4VJEyBKmiUV4nwgmKnzql8"
+      },
+      "href": "https://api.spotify.com/v1/playlists/4VJEyBKmiUV4nwgmKnzql8",
+      "id": "4VJEyBKmiUV4nwgmKnzql8",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b2732e98519f7d1fd9d6863dd23fab67616d0000b273560edc21066b670c8bd91ce8ab67616d0000b273cd3b5853d5cc9f9fdbaa7640ab67616d0000b273f3d99e4a2871fddc51214184",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b2732e98519f7d1fd9d6863dd23fab67616d0000b273560edc21066b670c8bd91ce8ab67616d0000b273cd3b5853d5cc9f9fdbaa7640ab67616d0000b273f3d99e4a2871fddc51214184",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b2732e98519f7d1fd9d6863dd23fab67616d0000b273560edc21066b670c8bd91ce8ab67616d0000b273cd3b5853d5cc9f9fdbaa7640ab67616d0000b273f3d99e4a2871fddc51214184",
+          "width": 60
+        }
+      ],
+      "name": "pepesilviapepesilviapepesilviapepesilviapepesilviapepesilviapepesilviapepesilviapepesilviapepesilvia",
+      "owner": {
+        "display_name": "Sean Oxford",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/123267834"
+        },
+        "href": "https://api.spotify.com/v1/users/123267834",
+        "id": "123267834",
+        "type": "user",
+        "uri": "spotify:user:123267834"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "MTksZDZjYjllNjY0ZDZjMmM4NTFkNTRhMTUwNDQzYWJkMjY4MTE1ZTQ3Ng==",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/4VJEyBKmiUV4nwgmKnzql8/tracks",
+        "total": 12
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:4VJEyBKmiUV4nwgmKnzql8"
+    },
+    {
+      "collaborative": false,
+      "description": "Ophelia Records by Seven Lions",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/6RXEZRKWS7mDI6jGtwl619"
+      },
+      "href": "https://api.spotify.com/v1/playlists/6RXEZRKWS7mDI6jGtwl619",
+      "id": "6RXEZRKWS7mDI6jGtwl619",
+      "images": [
+        {
+          "height": null,
+          "url": "https://i.scdn.co/image/ab67706c0000da84aab8572ba3174c7b942db8f4",
+          "width": null
+        }
+      ],
+      "name": "Ophelia Records",
+      "owner": {
+        "display_name": "Ophelia Records",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/pifzh12xaii2syp1tjibazrmv"
+        },
+        "href": "https://api.spotify.com/v1/users/pifzh12xaii2syp1tjibazrmv",
+        "id": "pifzh12xaii2syp1tjibazrmv",
+        "type": "user",
+        "uri": "spotify:user:pifzh12xaii2syp1tjibazrmv"
+      },
+      "primary_color": null,
+      "public": false,
+      "snapshot_id": "NDMxLDkzNDVkYjI3YzA2OTM1YjEzOGI0MTFiNzgzYThkZTM3Yzc4ZmVjYjg=",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/6RXEZRKWS7mDI6jGtwl619/tracks",
+        "total": 228
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:6RXEZRKWS7mDI6jGtwl619"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/7aeyKlCGzSCTVIH1IdDxDM"
+      },
+      "href": "https://api.spotify.com/v1/playlists/7aeyKlCGzSCTVIH1IdDxDM",
+      "id": "7aeyKlCGzSCTVIH1IdDxDM",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b273483536d7340f3b68c19b637cab67616d0000b2738bc24150245a8d31c68b58b4ab67616d0000b2739fe9a01b7614e5d518dd0932ab67616d0000b273ad7e11015eb1959e6bbb0776",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b273483536d7340f3b68c19b637cab67616d0000b2738bc24150245a8d31c68b58b4ab67616d0000b2739fe9a01b7614e5d518dd0932ab67616d0000b273ad7e11015eb1959e6bbb0776",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b273483536d7340f3b68c19b637cab67616d0000b2738bc24150245a8d31c68b58b4ab67616d0000b2739fe9a01b7614e5d518dd0932ab67616d0000b273ad7e11015eb1959e6bbb0776",
+          "width": 60
+        }
+      ],
+      "name": "pole bops for sallee",
+      "owner": {
+        "display_name": "Sean Oxford",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/123267834"
+        },
+        "href": "https://api.spotify.com/v1/users/123267834",
+        "id": "123267834",
+        "type": "user",
+        "uri": "spotify:user:123267834"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "MjAsMmQ4OThlMjRkOTM4NDFmYzkwZTU0ZjJjNGU0NzJjODE5M2I0ZjkwMQ==",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/7aeyKlCGzSCTVIH1IdDxDM/tracks",
+        "total": 17
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:7aeyKlCGzSCTVIH1IdDxDM"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/0Y98web8jlQ45ZNzc1Pwka"
+      },
+      "href": "https://api.spotify.com/v1/playlists/0Y98web8jlQ45ZNzc1Pwka",
+      "id": "0Y98web8jlQ45ZNzc1Pwka",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b27317e91c66eac95d844e8595daab67616d0000b2733636ac7a8af679d425fdefeeab67616d0000b273b340389616c13200bab2eefaab67616d0000b273d60e5cac1691f8b02a6351e7",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b27317e91c66eac95d844e8595daab67616d0000b2733636ac7a8af679d425fdefeeab67616d0000b273b340389616c13200bab2eefaab67616d0000b273d60e5cac1691f8b02a6351e7",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b27317e91c66eac95d844e8595daab67616d0000b2733636ac7a8af679d425fdefeeab67616d0000b273b340389616c13200bab2eefaab67616d0000b273d60e5cac1691f8b02a6351e7",
+          "width": 60
+        }
+      ],
+      "name": "aluminum",
+      "owner": {
+        "display_name": "Sean Oxford",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/123267834"
+        },
+        "href": "https://api.spotify.com/v1/users/123267834",
+        "id": "123267834",
+        "type": "user",
+        "uri": "spotify:user:123267834"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "MzQsYmM4NWNmMGJmYzNhZTU1ZjkzYmE1NTI1NzNiZWI2YjI2NDQ2YWVmMg==",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/0Y98web8jlQ45ZNzc1Pwka/tracks",
+        "total": 16
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:0Y98web8jlQ45ZNzc1Pwka"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/6eNfk7a47dA0GhMzkqCXAx"
+      },
+      "href": "https://api.spotify.com/v1/playlists/6eNfk7a47dA0GhMzkqCXAx",
+      "id": "6eNfk7a47dA0GhMzkqCXAx",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b273332d85510aba3eb28312cfb2ab67616d0000b273495ce6da9aeb159e94eaa453ab67616d0000b2738d2cfad007b9431f48aef135ab67616d0000b273a7613d346501b828b56a0bc3",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b273332d85510aba3eb28312cfb2ab67616d0000b273495ce6da9aeb159e94eaa453ab67616d0000b2738d2cfad007b9431f48aef135ab67616d0000b273a7613d346501b828b56a0bc3",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b273332d85510aba3eb28312cfb2ab67616d0000b273495ce6da9aeb159e94eaa453ab67616d0000b2738d2cfad007b9431f48aef135ab67616d0000b273a7613d346501b828b56a0bc3",
+          "width": 60
+        }
+      ],
+      "name": "pH 14",
+      "owner": {
+        "display_name": "Sean Oxford",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/123267834"
+        },
+        "href": "https://api.spotify.com/v1/users/123267834",
+        "id": "123267834",
+        "type": "user",
+        "uri": "spotify:user:123267834"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "MjcsMzVhMzQ2N2FlMTljZDE2YTNhYTc3NTg5ODVhYTIzZTVmYTdmZjZlNw==",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/6eNfk7a47dA0GhMzkqCXAx/tracks",
+        "total": 17
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:6eNfk7a47dA0GhMzkqCXAx"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/02ok9Dnh0xmzGtb9n1QHF2"
+      },
+      "href": "https://api.spotify.com/v1/playlists/02ok9Dnh0xmzGtb9n1QHF2",
+      "id": "02ok9Dnh0xmzGtb9n1QHF2",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b2737f8ec56a0fde0ac354392bb5ab67616d0000b273a4eafa42c62543f48ddfc60cab67616d0000b273b454dbf64d6d56f5af0884f7ab67616d0000b273f0c0abf2a3ecbaa58c8833db",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b2737f8ec56a0fde0ac354392bb5ab67616d0000b273a4eafa42c62543f48ddfc60cab67616d0000b273b454dbf64d6d56f5af0884f7ab67616d0000b273f0c0abf2a3ecbaa58c8833db",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b2737f8ec56a0fde0ac354392bb5ab67616d0000b273a4eafa42c62543f48ddfc60cab67616d0000b273b454dbf64d6d56f5af0884f7ab67616d0000b273f0c0abf2a3ecbaa58c8833db",
+          "width": 60
+        }
+      ],
+      "name": "feelers",
+      "owner": {
+        "display_name": "Sean Oxford",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/123267834"
+        },
+        "href": "https://api.spotify.com/v1/users/123267834",
+        "id": "123267834",
+        "type": "user",
+        "uri": "spotify:user:123267834"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "NDIsNDZhZjVjNjVhOGYzNmVhNWUzNTNjOTk1MWY2ZjYwYzBmZWM3YTVjOA==",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/02ok9Dnh0xmzGtb9n1QHF2/tracks",
+        "total": 19
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:02ok9Dnh0xmzGtb9n1QHF2"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/1T4bI2tbVj99t9JF8qnUzk"
+      },
+      "href": "https://api.spotify.com/v1/playlists/1T4bI2tbVj99t9JF8qnUzk",
+      "id": "1T4bI2tbVj99t9JF8qnUzk",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b2731208d90b7117ae7762892455ab67616d0000b27334f9a52d32063623e906614aab67616d0000b27377e0c6daba1a59647a8b9c46ab67616d0000b273d8bcf73b65de5a34fb88a2ab",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b2731208d90b7117ae7762892455ab67616d0000b27334f9a52d32063623e906614aab67616d0000b27377e0c6daba1a59647a8b9c46ab67616d0000b273d8bcf73b65de5a34fb88a2ab",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b2731208d90b7117ae7762892455ab67616d0000b27334f9a52d32063623e906614aab67616d0000b27377e0c6daba1a59647a8b9c46ab67616d0000b273d8bcf73b65de5a34fb88a2ab",
+          "width": 60
+        }
+      ],
+      "name": "Realms",
+      "owner": {
+        "display_name": "Sean Oxford",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/123267834"
+        },
+        "href": "https://api.spotify.com/v1/users/123267834",
+        "id": "123267834",
+        "type": "user",
+        "uri": "spotify:user:123267834"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "MTgzLDc2YTBlZjUxOTQ0OTcxNDlkZmE4ODllZDBjNDNmZGZjOWUzMzI0YWM=",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/1T4bI2tbVj99t9JF8qnUzk/tracks",
+        "total": 199
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:1T4bI2tbVj99t9JF8qnUzk"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/1U31FSDy0wr7SDGqVZzIQK"
+      },
+      "href": "https://api.spotify.com/v1/playlists/1U31FSDy0wr7SDGqVZzIQK",
+      "id": "1U31FSDy0wr7SDGqVZzIQK",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b273128020330aaa0b1513283cafab67616d0000b27371565eda831124be86c603d5ab67616d0000b27395d1d98c5176e4f982bd73d6ab67616d0000b273c8913cd7b91bb7f6bbbec305",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b273128020330aaa0b1513283cafab67616d0000b27371565eda831124be86c603d5ab67616d0000b27395d1d98c5176e4f982bd73d6ab67616d0000b273c8913cd7b91bb7f6bbbec305",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b273128020330aaa0b1513283cafab67616d0000b27371565eda831124be86c603d5ab67616d0000b27395d1d98c5176e4f982bd73d6ab67616d0000b273c8913cd7b91bb7f6bbbec305",
+          "width": 60
+        }
+      ],
+      "name": "rawr xD",
+      "owner": {
+        "display_name": "Sean Oxford",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/123267834"
+        },
+        "href": "https://api.spotify.com/v1/users/123267834",
+        "id": "123267834",
+        "type": "user",
+        "uri": "spotify:user:123267834"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "MTU4LDFmODc4MjcxMWFiYWEyY2MxNDQxM2I5YjViMzg2YTMyYWE3ZTM5Y2U=",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/1U31FSDy0wr7SDGqVZzIQK/tracks",
+        "total": 109
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:1U31FSDy0wr7SDGqVZzIQK"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/2gk49U9gI6dyikDx7Qy893"
+      },
+      "href": "https://api.spotify.com/v1/playlists/2gk49U9gI6dyikDx7Qy893",
+      "id": "2gk49U9gI6dyikDx7Qy893",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b2733437e8bbed340ca556c42c04ab67616d0000b2737ecffdcb0c079ce32b47be74ab67616d0000b27389c5c957f376e8c87ed23dccab67616d0000b2738b32b139981e79f2ebe005eb",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b2733437e8bbed340ca556c42c04ab67616d0000b2737ecffdcb0c079ce32b47be74ab67616d0000b27389c5c957f376e8c87ed23dccab67616d0000b2738b32b139981e79f2ebe005eb",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b2733437e8bbed340ca556c42c04ab67616d0000b2737ecffdcb0c079ce32b47be74ab67616d0000b27389c5c957f376e8c87ed23dccab67616d0000b2738b32b139981e79f2ebe005eb",
+          "width": 60
+        }
+      ],
+      "name": "urban outfitters",
+      "owner": {
+        "display_name": "Sean Oxford",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/123267834"
+        },
+        "href": "https://api.spotify.com/v1/users/123267834",
+        "id": "123267834",
+        "type": "user",
+        "uri": "spotify:user:123267834"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "MjYsMTFkMjdjMmQ2N2Y4NzZkY2I1YjRjOGJlNjUzNDJlYTY3OTEyNzM4OA==",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/2gk49U9gI6dyikDx7Qy893/tracks",
+        "total": 26
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:2gk49U9gI6dyikDx7Qy893"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/6KIGgI2fkwt1GxOWvscdXe"
+      },
+      "href": "https://api.spotify.com/v1/playlists/6KIGgI2fkwt1GxOWvscdXe",
+      "id": "6KIGgI2fkwt1GxOWvscdXe",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b2733556ff5e46e50eb27be71ebeab67616d0000b2733891d02ec1365af117584de3ab67616d0000b27376c5c62197115a22b23ff950ab67616d0000b2737a6339d6ddfd579f77559b3c",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b2733556ff5e46e50eb27be71ebeab67616d0000b2733891d02ec1365af117584de3ab67616d0000b27376c5c62197115a22b23ff950ab67616d0000b2737a6339d6ddfd579f77559b3c",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b2733556ff5e46e50eb27be71ebeab67616d0000b2733891d02ec1365af117584de3ab67616d0000b27376c5c62197115a22b23ff950ab67616d0000b2737a6339d6ddfd579f77559b3c",
+          "width": 60
+        }
+      ],
+      "name": "$",
+      "owner": {
+        "display_name": "Sean Oxford",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/123267834"
+        },
+        "href": "https://api.spotify.com/v1/users/123267834",
+        "id": "123267834",
+        "type": "user",
+        "uri": "spotify:user:123267834"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "MjMsOGIwNWZmNTJkNzIzOGI2YWU1Mjg4MmYyMTcxYWFlNWZjOTdmYTQ0Yw==",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/6KIGgI2fkwt1GxOWvscdXe/tracks",
+        "total": 22
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:6KIGgI2fkwt1GxOWvscdXe"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/6puwdRrLJ5B6GHw7o4AC4l"
+      },
+      "href": "https://api.spotify.com/v1/playlists/6puwdRrLJ5B6GHw7o4AC4l",
+      "id": "6puwdRrLJ5B6GHw7o4AC4l",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b273964d5556e22fc4c1e00e0821ab67616d0000b273c50ea38af38b2e3bd8cd96fcab67616d0000b273ed92beb9f1566f4affee0716ab67616d0000b273f4be4dc9ba6f69d2d08c3611",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b273964d5556e22fc4c1e00e0821ab67616d0000b273c50ea38af38b2e3bd8cd96fcab67616d0000b273ed92beb9f1566f4affee0716ab67616d0000b273f4be4dc9ba6f69d2d08c3611",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b273964d5556e22fc4c1e00e0821ab67616d0000b273c50ea38af38b2e3bd8cd96fcab67616d0000b273ed92beb9f1566f4affee0716ab67616d0000b273f4be4dc9ba6f69d2d08c3611",
+          "width": 60
+        }
+      ],
+      "name": ">:T",
+      "owner": {
+        "display_name": "Sean Oxford",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/123267834"
+        },
+        "href": "https://api.spotify.com/v1/users/123267834",
+        "id": "123267834",
+        "type": "user",
+        "uri": "spotify:user:123267834"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "NDcsNGMzYjg2NjUzOTk4YTBmNjE2OTkzYjcyNDY3ODZjNWUwMDYxNTYyZQ==",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/6puwdRrLJ5B6GHw7o4AC4l/tracks",
+        "total": 39
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:6puwdRrLJ5B6GHw7o4AC4l"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/0pXb4WGR4b5c6pXcWjk6GJ"
+      },
+      "href": "https://api.spotify.com/v1/playlists/0pXb4WGR4b5c6pXcWjk6GJ",
+      "id": "0pXb4WGR4b5c6pXcWjk6GJ",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b27372c9dedb952759838cf9c6e3ab67616d0000b2737ce773203137e00687d6b118ab67616d0000b273822bf894408afd53cd064b1aab67616d0000b273e7fea37847f4b378ecae12f5",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b27372c9dedb952759838cf9c6e3ab67616d0000b2737ce773203137e00687d6b118ab67616d0000b273822bf894408afd53cd064b1aab67616d0000b273e7fea37847f4b378ecae12f5",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b27372c9dedb952759838cf9c6e3ab67616d0000b2737ce773203137e00687d6b118ab67616d0000b273822bf894408afd53cd064b1aab67616d0000b273e7fea37847f4b378ecae12f5",
+          "width": 60
+        }
+      ],
+      "name": "Landro Kylrisian",
+      "owner": {
+        "display_name": "Sean Oxford",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/123267834"
+        },
+        "href": "https://api.spotify.com/v1/users/123267834",
+        "id": "123267834",
+        "type": "user",
+        "uri": "spotify:user:123267834"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "MjAsZTZiOWVkNjYxYWZjZjc3NzE5OTdiYWY5OWUxY2EzNTQwY2FmMDg2ZQ==",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/0pXb4WGR4b5c6pXcWjk6GJ/tracks",
+        "total": 13
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:0pXb4WGR4b5c6pXcWjk6GJ"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/20szJ4GgSRm632nck5xATj"
+      },
+      "href": "https://api.spotify.com/v1/playlists/20szJ4GgSRm632nck5xATj",
+      "id": "20szJ4GgSRm632nck5xATj",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b2730a65bd124a5e6e6e2f05d1c2ab67616d0000b273409860c46f6c86fcd6fed9a1ab67616d0000b2737c7ae515d7f83ed09feb89a2ab67616d0000b273dcbd25c605dddb32022cecba",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b2730a65bd124a5e6e6e2f05d1c2ab67616d0000b273409860c46f6c86fcd6fed9a1ab67616d0000b2737c7ae515d7f83ed09feb89a2ab67616d0000b273dcbd25c605dddb32022cecba",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b2730a65bd124a5e6e6e2f05d1c2ab67616d0000b273409860c46f6c86fcd6fed9a1ab67616d0000b2737c7ae515d7f83ed09feb89a2ab67616d0000b273dcbd25c605dddb32022cecba",
+          "width": 60
+        }
+      ],
+      "name": "highschool edgelording",
+      "owner": {
+        "display_name": "Sean Oxford",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/123267834"
+        },
+        "href": "https://api.spotify.com/v1/users/123267834",
+        "id": "123267834",
+        "type": "user",
+        "uri": "spotify:user:123267834"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "NDgsMzJlYTBiNWM0ZDVlNTJkNzgwMDljNTRhMmE1MjFkYjIyNWEwNTI3Zg==",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/20szJ4GgSRm632nck5xATj/tracks",
+        "total": 108
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:20szJ4GgSRm632nck5xATj"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/7rH9W34oG5jPHveyUtUm5S"
+      },
+      "href": "https://api.spotify.com/v1/playlists/7rH9W34oG5jPHveyUtUm5S",
+      "id": "7rH9W34oG5jPHveyUtUm5S",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b2732e17f2ed06020a740108281aab67616d0000b2738db796cfdb020c53f215334fab67616d0000b273b340389616c13200bab2eefaab67616d0000b273ddb2afe3a284285ffedfc33b",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b2732e17f2ed06020a740108281aab67616d0000b2738db796cfdb020c53f215334fab67616d0000b273b340389616c13200bab2eefaab67616d0000b273ddb2afe3a284285ffedfc33b",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b2732e17f2ed06020a740108281aab67616d0000b2738db796cfdb020c53f215334fab67616d0000b273b340389616c13200bab2eefaab67616d0000b273ddb2afe3a284285ffedfc33b",
+          "width": 60
+        }
+      ],
+      "name": "influence",
+      "owner": {
+        "display_name": "Sean Oxford",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/123267834"
+        },
+        "href": "https://api.spotify.com/v1/users/123267834",
+        "id": "123267834",
+        "type": "user",
+        "uri": "spotify:user:123267834"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "MTk3LDZiNzc0MDliMTZmNGI3OWJmZDkxNGQ1N2UzMDBhNmQyZmZlZjljNWQ=",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/7rH9W34oG5jPHveyUtUm5S/tracks",
+        "total": 134
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:7rH9W34oG5jPHveyUtUm5S"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/1tM0fI1I21d1HEPX8yZ8dc"
+      },
+      "href": "https://api.spotify.com/v1/playlists/1tM0fI1I21d1HEPX8yZ8dc",
+      "id": "1tM0fI1I21d1HEPX8yZ8dc",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b2730169a3ddd36ca8acdc83dfbdab67616d0000b27347302a63707a61b0c56809deab67616d0000b273cb264041326aa88530e0e77bab67616d0000b273d358ce8a9f7a296d96de2613",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b2730169a3ddd36ca8acdc83dfbdab67616d0000b27347302a63707a61b0c56809deab67616d0000b273cb264041326aa88530e0e77bab67616d0000b273d358ce8a9f7a296d96de2613",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b2730169a3ddd36ca8acdc83dfbdab67616d0000b27347302a63707a61b0c56809deab67616d0000b273cb264041326aa88530e0e77bab67616d0000b273d358ce8a9f7a296d96de2613",
+          "width": 60
+        }
+      ],
+      "name": "ratchet",
+      "owner": {
+        "display_name": "Sean Oxford",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/123267834"
+        },
+        "href": "https://api.spotify.com/v1/users/123267834",
+        "id": "123267834",
+        "type": "user",
+        "uri": "spotify:user:123267834"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "MzYsNDg2Y2JjZjIwMzJhNDZhNTczZjJkMGFjYTNiMWI3ZGUzN2E3ZWFlOQ==",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/1tM0fI1I21d1HEPX8yZ8dc/tracks",
+        "total": 24
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:1tM0fI1I21d1HEPX8yZ8dc"
+    }
+  ],
+  "limit": 20,
+  "next": "https://api.spotify.com/v1/users/123267834/playlists?offset=20&limit=20",
+  "offset": 0,
+  "previous": null,
+  "total": 34
+}

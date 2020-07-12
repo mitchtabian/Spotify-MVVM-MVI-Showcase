@@ -5,7 +5,9 @@ import com.sean.spotifyapp.persistence.AppDatabase
 import com.sean.spotifyapp.persistence.MainDao
 import dagger.Module
 import dagger.Provides
+import kotlinx.coroutines.InternalCoroutinesApi
 
+@InternalCoroutinesApi
 @Module
 class MainDaoModule {
 

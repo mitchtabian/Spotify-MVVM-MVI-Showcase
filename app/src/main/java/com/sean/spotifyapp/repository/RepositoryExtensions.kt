@@ -17,10 +17,12 @@ import com.sean.spotifyapp.screens.auth.AuthViewState
 import com.sean.spotifyapp.screens.base.DataState
 import com.sean.spotifyapp.screens.base.ReturnAction
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.InternalCoroutinesApi
 import kotlinx.coroutines.TimeoutCancellationException
 import kotlinx.coroutines.withContext
 
 
+@InternalCoroutinesApi
 suspend fun <T> safeCacheCall(cacheCall: suspend () -> T): CacheResult<T> {
     return withContext(Dispatchers.IO) {
         try {
@@ -59,6 +61,7 @@ fun errorToastMessageModel(text: String): MessageModel =
 fun successToastMessageModel(message: String): MessageModel =
     MessageModel(message, UIComponentType.Toast(), MessageType.Success())
 
+@InternalCoroutinesApi
 fun hasConnectivity(): Boolean {
     val connectivityManager =
         SpotifyApplication.sApplication.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager

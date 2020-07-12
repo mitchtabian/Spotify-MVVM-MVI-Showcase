@@ -8,7 +8,9 @@ import com.sean.spotifyapp.models.CategoryItem
 import com.sean.spotifyapp.models.PlaylistItem
 import com.sean.spotifyapp.models.Track
 import com.sean.spotifyapp.models.AuthToken
+import kotlinx.coroutines.InternalCoroutinesApi
 
+@InternalCoroutinesApi
 @Database(
     entities = [CategoryItem::class, Artist::class, AuthToken::class, PlaylistItem::class, Track::class],
     version = 5

@@ -6,13 +6,16 @@ import com.sean.spotifyapp.network.ApiResult
 import com.sean.spotifyapp.repository.CacheResponseHandler
 import com.sean.spotifyapp.repository.safeCacheCall
 import com.sean.spotifyapp.screens.base.DataState
+import kotlinx.coroutines.InternalCoroutinesApi
 import kotlinx.coroutines.flow.flow
 
+@InternalCoroutinesApi
 abstract class CacheRetrievingApiHandler<NetworkObject, CacheObject, ViewState> constructor(
     private val stateEvent: StateEvent,
     private val cacheCall: (suspend () -> CacheObject),
     apiCall: suspend () -> NetworkObject
 ) : CachingApiHandler<NetworkObject, CacheObject, ViewState>(stateEvent, apiCall) {
+
 
     override val result = flow {
         emit(returnCache(false))

@@ -14,8 +14,9 @@ import com.sean.spotifyapp.screens.menu.MenuReturnAction
 import com.sean.spotifyapp.screens.menu.MenuStateEvent
 import com.sean.spotifyapp.screens.menu.MenuViewState
 import com.spotify.sdk.android.auth.AuthorizationClient
+import kotlinx.coroutines.InternalCoroutinesApi
 import kotlinx.coroutines.flow.flow
-
+@InternalCoroutinesApi
 class LogoutHandler(val stateEvent: MenuStateEvent.LogoutEvent, private val authDao: AuthDao) {
 
     val result = flow {

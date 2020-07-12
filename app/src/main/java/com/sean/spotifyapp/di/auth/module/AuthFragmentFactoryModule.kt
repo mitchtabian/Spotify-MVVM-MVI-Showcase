@@ -6,8 +6,9 @@ import com.sean.spotifyapp.di.auth.AuthScope
 import com.sean.spotifyapp.fragment.AuthFragmentFactory
 import dagger.Module
 import dagger.Provides
+import kotlinx.coroutines.InternalCoroutinesApi
 
-
+@InternalCoroutinesApi
 @Module
 class AuthFragmentFactoryModule {
 

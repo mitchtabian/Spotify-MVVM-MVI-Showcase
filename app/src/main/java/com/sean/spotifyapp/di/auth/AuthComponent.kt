@@ -6,11 +6,16 @@ import com.sean.spotifyapp.di.auth.module.AuthViewModelModule
 import com.sean.spotifyapp.fragment.AuthNavHostFragment
 import com.sean.spotifyapp.fragment.MainNavHostFragment
 import dagger.Subcomponent
+import kotlinx.coroutines.ExperimentalCoroutinesApi
+import kotlinx.coroutines.InternalCoroutinesApi
 
+@ExperimentalCoroutinesApi
+@InternalCoroutinesApi
 @AuthScope
 @Subcomponent(
     modules = [
-        AuthViewModelModule::class, AuthFragmentFactoryModule::class
+        AuthViewModelModule::class,
+        AuthFragmentFactoryModule::class
     ]
 )
 interface AuthComponent {

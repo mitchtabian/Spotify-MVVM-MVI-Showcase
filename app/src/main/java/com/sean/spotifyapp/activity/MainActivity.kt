@@ -14,6 +14,7 @@ import com.sean.spotifyapp.SpotifyApplication
 import com.sean.spotifyapp.fragment.MainFragmentFactory
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.FlowPreview
+import kotlinx.coroutines.InternalCoroutinesApi
 import javax.inject.Inject
 
 @FlowPreview
@@ -26,6 +27,7 @@ class MainActivity: AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
+    @InternalCoroutinesApi
     fun navigateToAuthActivity(){
         (application as SpotifyApplication).releaseMainComponent()
             startActivity(Intent(this, AuthActivity::class.java))

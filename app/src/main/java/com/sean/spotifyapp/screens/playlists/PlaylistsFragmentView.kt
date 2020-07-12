@@ -18,7 +18,8 @@ import com.sean.spotifyapp.screens.base.ReturnAction
 import com.sean.spotifyapp.screens.playlist_detail.PlaylistDetailFragment.Companion.BUNDLE_KEY_PLAYLIST_ID
 import com.sean.spotifyapp.screens.playlist_detail.PlaylistDetailFragment.Companion.BUNDLE_KEY_PLAYLIST_NAME
 import com.sean.spotifyapp.screens.playlists.widgets.PlaylistsAdapter
-
+import kotlinx.coroutines.InternalCoroutinesApi
+@InternalCoroutinesApi
 class PlaylistsFragmentView(viewModel: PlaylistsViewModel, context: Context) :
     BaseFragmentView<PlaylistsViewState>(viewModel, context), PlaylistsAdapter.Callback {
 

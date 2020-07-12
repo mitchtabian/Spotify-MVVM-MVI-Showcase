@@ -3,8 +3,9 @@ package com.sean.spotifyapp.persistence
 import androidx.room.*
 import com.sean.spotifyapp.repository.AuthRepository.Companion.TOKEN_PRIMARY_KEY
 import com.sean.spotifyapp.models.AuthToken
+import kotlinx.coroutines.InternalCoroutinesApi
 
-
+@InternalCoroutinesApi
 @Dao
 interface AuthDao {
 

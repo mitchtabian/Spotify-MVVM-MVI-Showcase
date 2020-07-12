@@ -7,7 +7,9 @@ import com.sean.myapplication.screens.BaseClasses.BaseFragmentView
 import com.sean.myapplication.screens.BaseClasses.ViewState
 import com.sean.spotifyapp.R
 import com.sean.spotifyapp.screens.categories.CategoriesViewModel
+import kotlinx.coroutines.InternalCoroutinesApi
 
+@InternalCoroutinesApi
 class AuthFragment(viewModelFactory: ViewModelProvider.Factory) : BaseFragment(viewModelFactory) {
 
     private val viewModel: AuthViewModel by viewModels {viewModelFactory}

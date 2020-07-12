@@ -5,7 +5,9 @@ import androidx.lifecycle.ViewModelProvider
 import com.sean.myapplication.screens.BaseClasses.*
 import com.sean.spotifyapp.R
 import com.sean.spotifyapp.screens.playlists.PlaylistsViewModel
+import kotlinx.coroutines.InternalCoroutinesApi
 
+@InternalCoroutinesApi
 class SearchFragment(
     viewModelFactory: ViewModelProvider.Factory
 ) : BaseFragment(viewModelFactory) {

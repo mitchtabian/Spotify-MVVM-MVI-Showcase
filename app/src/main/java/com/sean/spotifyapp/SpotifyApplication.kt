@@ -8,8 +8,11 @@ import com.sean.spotifyapp.di.auth.AuthComponent
 import com.sean.spotifyapp.di.main.MainComponent
 import dagger.android.AndroidInjector
 import dagger.android.support.DaggerApplication
+import kotlinx.coroutines.InternalCoroutinesApi
 
-class SpotifyApplication : Application() {
+@InternalCoroutinesApi
+open class SpotifyApplication : Application() {
+
 
     lateinit var appComponent: SpotifyComponent
 
@@ -49,7 +52,7 @@ class SpotifyApplication : Application() {
         return authComponent as AuthComponent
     }
 
-    private fun initAppComponent(){
+    protected open fun initAppComponent(){
         appComponent = DaggerSpotifyComponent.builder().application(this).build()
     }
 

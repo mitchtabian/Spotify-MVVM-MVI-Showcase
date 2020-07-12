@@ -17,24 +17,26 @@ import com.sean.spotifyapp.screens.playlist_detail.PlaylistDetailViewState
 import com.sean.spotifyapp.screens.playlists.PlaylistsStateEvent.*
 import com.sean.spotifyapp.screens.search.SearchStateEvent.*
 import com.sean.spotifyapp.screens.search.SearchViewState
+import kotlinx.coroutines.InternalCoroutinesApi
 
-class MainRepository
+@InternalCoroutinesApi
+open class MainRepository
 @Inject
 constructor(private val apiService: ApiService, private val mainDao: MainDao, private val authDao: AuthDao) {
 
-    fun logout(stateEvent: MenuStateEvent.LogoutEvent): Flow<DataState<MenuViewState>> =
+    open fun logout(stateEvent: MenuStateEvent.LogoutEvent): Flow<DataState<MenuViewState>> =
         LogoutHandler(stateEvent, authDao).result
 
-    fun searchArtists(stateArtistsEvent: SearchArtistsEvent): Flow<DataState<SearchViewState>> =
+    open fun searchArtists(stateArtistsEvent: SearchArtistsEvent): Flow<DataState<SearchViewState>> =
         GetArtistsHandler(stateArtistsEvent, apiService, mainDao, { getTokenString() }).result
 
-    fun getPlaylists(stateEvent: GetPlaylistsStateEvent): Flow<DataState<PlaylistsViewState>> =
+    open fun getPlaylists(stateEvent: GetPlaylistsStateEvent): Flow<DataState<PlaylistsViewState>> =
         GetPlaylistsHandler(stateEvent, apiService, mainDao, { getTokenString() }).result
 
-    fun getPlaylistDetail(stateEvent: GetPlaylistDetailStateEvent): Flow<DataState<PlaylistDetailViewState>> =
+    open fun getPlaylistDetail(stateEvent: GetPlaylistDetailStateEvent): Flow<DataState<PlaylistDetailViewState>> =
         GetPlaylistDetailHandler(stateEvent, apiService, mainDao, { getTokenString() }).result
 
-    fun getCategories(stateEvent: StateEvent): Flow<DataState<CategoriesViewState>> =
+    open fun getCategories(stateEvent: StateEvent): Flow<DataState<CategoriesViewState>> =
         GetCategoriesHandler(stateEvent, apiService, mainDao, { getTokenString() }).result
 
     private suspend fun getTokenString(): String = "Bearer ${authDao.getToken()?.token}"

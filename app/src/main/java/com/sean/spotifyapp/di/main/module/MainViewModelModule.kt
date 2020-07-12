@@ -12,7 +12,9 @@ import com.sean.spotifyapp.screens.search.SearchViewModel
 import dagger.Binds
 import dagger.Module
 import dagger.multibindings.IntoMap
+import kotlinx.coroutines.InternalCoroutinesApi
 
+@InternalCoroutinesApi
 @Module
 abstract class MainViewModelModule{
 
@@ -39,7 +41,6 @@ abstract class MainViewModelModule{
     @IntoMap
     @MainViewModelKey(PlaylistsViewModel::class)
     abstract fun bindPlaylistsViewModel(playlistsViewModel: PlaylistsViewModel): ViewModel
-
 
     @Binds
     @IntoMap

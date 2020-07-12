@@ -10,13 +10,14 @@ import com.sean.spotifyapp.repository.buildError
 import com.sean.spotifyapp.repository.hasConnectivity
 import com.sean.spotifyapp.screens.base.DataState
 import kotlinx.coroutines.Dispatchers.IO
+import kotlinx.coroutines.InternalCoroutinesApi
 import kotlinx.coroutines.TimeoutCancellationException
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.withContext
 import kotlinx.coroutines.withTimeout
 import retrofit2.HttpException
 import java.io.IOException
-
+@InternalCoroutinesApi
 abstract class BaseApiHandler<ViewState, NetworkObj> constructor(
     private val stateEvent: StateEvent,
     private val apiCall: suspend () -> NetworkObj

@@ -13,8 +13,8 @@ android {
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
-
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner "com.sean.spotifyapp.MockTestRunner"
+        testInstrumentationRunnerArguments clearPackageData: 'true'
     }
 
     buildTypes {
@@ -40,9 +40,14 @@ android {
         }
     }
 
-    androidExtensions {
-        experimental = true
+    testOptions {
+        execution 'ANDROIDX_TEST_ORCHESTRATOR'
     }
+
+
+//    androidExtensions {
+//        experimental = true
+//    }
 
 }
 
@@ -100,6 +105,8 @@ dependencies {
     implementation "com.google.dagger:dagger-android:$dagger_version"
     implementation "com.google.dagger:dagger-android-support:$dagger_version"
     kapt "com.google.dagger:dagger-android-processor:$dagger_version"
+    kaptAndroidTest "com.google.dagger:dagger-compiler:$dagger_version"
+
 
     def nav_version = "2.3.0"
     implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
@@ -113,6 +120,42 @@ dependencies {
 
     implementation "com.github.bumptech.glide:glide:$glide_version"
     annotationProcessor "com.github.bumptech.glide:compiler:$glide_version"
+
+    // androidx.fragment
+    def fragment_version = "1.2.5"
+    debugImplementation "androidx.fragment:fragment-testing:$fragment_version"
+    implementation "androidx.fragment:fragment-ktx:$fragment_version"
+
+    def androidx_test_runner = "1.2.0"
+    androidTestImplementation "androidx.test:runner:$androidx_test_runner"
+    androidTestImplementation "androidx.test:rules:$androidx_test_runner"
+
+    // orchestrator
+    def orchestrator_version = "1.2.0"
+    androidTestUtil "androidx.test:orchestrator:$orchestrator_version"
+
+    // Kotlin test
+    androidTestImplementation "org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version"
+
+    // Espresso
+    def androidx_espresso_core = "3.1.1"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$androidx_espresso_core"
+    androidTestImplementation "androidx.test.espresso:espresso-contrib:$androidx_espresso_core"
+
+    def androidx_espresso_idling_resource = "3.2.0"
+    androidTestImplementation "androidx.test.espresso:espresso-idling-resource:$androidx_espresso_idling_resource"
+    implementation "androidx.test.espresso:espresso-idling-resource:$androidx_espresso_idling_resource"
+
+    // Mockk.io
+    def mockk_version = "1.9.2"
+    androidTestImplementation "io.mockk:mockk-android:$mockk_version"
+
+
+    def androidx_test_core = "1.2.0"
+    androidTestImplementation "androidx.test:core-ktx:$androidx_test_core"
+
+    def androidx_test_ext = "1.1.1"
+    androidTestImplementation "androidx.test.ext:junit-ktx:$androidx_test_ext"
 
 
 }

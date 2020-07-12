@@ -10,8 +10,13 @@ import com.sean.spotifyapp.screens.menu.MenuFragment
 import com.sean.spotifyapp.screens.playlist_detail.PlaylistDetailFragment
 import com.sean.spotifyapp.screens.playlists.PlaylistsFragment
 import com.sean.spotifyapp.screens.search.SearchFragment
+import kotlinx.coroutines.ExperimentalCoroutinesApi
+import kotlinx.coroutines.InternalCoroutinesApi
 import javax.inject.Inject
+import javax.inject.Named
 
+@ExperimentalCoroutinesApi
+@InternalCoroutinesApi
 @MainScope
 class MainFragmentFactory
 @Inject

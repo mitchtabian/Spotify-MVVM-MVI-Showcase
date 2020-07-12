@@ -4,16 +4,27 @@ import android.content.Context
 import android.os.Bundle
 import android.util.Log
 import androidx.annotation.NavigationRes
+import androidx.fragment.app.FragmentFactory
 import androidx.navigation.fragment.NavHostFragment
+import com.sean.myapplication.di.MainScope
 import com.sean.spotifyapp.SpotifyApplication
+import kotlinx.coroutines.ExperimentalCoroutinesApi
+import kotlinx.coroutines.InternalCoroutinesApi
 import javax.inject.Inject
+import javax.inject.Named
+import javax.inject.Singleton
 
+@InternalCoroutinesApi
 class MainNavHostFragment : NavHostFragment() {
 
     @Inject
-    lateinit var mainFragmentFactory: MainFragmentFactory
+    lateinit var mainFragmentFactory: FragmentFactory
+
 
     override fun onAttach(context: Context) {
+        (activity?.application as SpotifyApplication).mainComponent()
+            .inject(this)
+
         SpotifyApplication.sApplication.mainComponent().inject(this)
         childFragmentManager.fragmentFactory = mainFragmentFactory
         super.onAttach(context)
